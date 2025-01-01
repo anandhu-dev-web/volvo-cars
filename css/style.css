@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: gray;
+    height: 110px;
+}
+nav{
+    background-color: white;
+    height: 65px;
+    position: relative;
+}
+.learn-more{
+    position: relative;
+    height: 45px;
+    background-color: black;
+}
+.learn-more a{
+    top: 30%;
+    left: 47%;
+    transform: translate(-30% -47%);
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 90%;
+}
+.video video{
+    height: 100%;
+    width: 100%;
+}
+nav img{
+    height: 100%;
+    left: 1.5%;
+    width: 7%;
+    position: absolute;
+}
+.navigation{
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    top: 20%;
+    left: 38%;
+}
+.navigation a button{
+    height:200%;
+    width: 140%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 100%;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+    font-weight:bold;
+    transition: 0.18s;
+}
+.navigation a button:hover{
+    height:200%;
+    width: 140%;
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+    font-size: 100%;
+    border-radius: 5px;
+    border: 0;
+    text-decoration: none; 
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:bold;
+    transition: 0.18s;
+}
+.sign-up{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100px;
+    top: 10%;
+    left: 89%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+.sign-up:hover{
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+    transition: 0.18s;
+}
+.sign-up a button{
+    background-color: transparent;
+    position: absolute;
+    left:40%;
+    top: 35%;
+    border: none;
+    font-family: sans-serif;
+    font-size:15px;
+}
+.sign-up a img{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    object-fit: fill;
+    height: 50%;
+    width: 25%;
+}
+.search-button{
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 96%;
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    width: 45px;
+    transition: 0.18s;
+}
+.search-button:hover{
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    transition: 0.18s;
+}
+.search-button img{
+    height: 50%;
+    width: 50%;
+    top: 20%;
+    left: 20%;
+    object-fit:cover;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    position: absolute;
+    color: white;
+    height: 400px;
+    width: 420px;
+    top: 9%;
+    left: 36%;
+    transform: translate(-9% -36%);
+}
+.video{
+    position:relative;
+}
+.heading-text{
+    font-size: 240%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.heading p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.message-icon{
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    right: 1.5%;
+    top: 89%;
+    height: 58px;
+    width: 55px;
+    box-shadow: 1px 1px 6px 1px rgb(206, 205, 205);
+}
+.message-icon img{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    height: 40%;
+    width: 40%;
+}
+.learn-more-button{
+    text-align: center;
+    position: absolute;
+    top: 51.5%;
+    left: 45%;
+    transform: translate(-51.5% -45%);
+    background-color: white;
+    width: 10%;
+    height: 6.5%;
+    border-radius: 5px;
+    transition: 0.18s;
+}
+.learn-more-button p{
+    font-family: Arial;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: black;
+    font-weight: bold;
+}
+.learn-more-button:hover{
+    cursor: pointer;
+    background-color: rgb(201, 201, 201);
+    transition: 0.18s;
+}
+.explore-models{
+    height: 800px;
+    width: 100%;
+}
+.explore-heading{
+    position: absolute;
+    top: 120%;
+    left:41%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 200%;
+    text-align: center;
+}
+.model-button {
+    position: absolute;
+    left: 37%;
+    top:127%;
+    height: 20%;
+    width: 30%;
+    
+}
+.model-button button{
+    border: none;
+    height:30%;
+    width: 20%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.18s;
+}
+.model-button button:hover{
+    transition: 0.18s;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+}
+.scroll{
+    position: absolute;
+    top:135%;
+    left:10%;
+    height:60%;
+    width:80%;
+    display: flex;
+}
+.scroll div{
+    margin: 5% 1% ;
+    flex: 1;
+    height: 320px;
+    width:22%;
+    cursor: pointer;
+    transition: 0.18s;
+}
+.scroll div:hover{
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    transition: 0.18s;
+}
+.scroll div img{
+    height:30%;
+    justify-content: center;
+    margin-top:30%;
+}
+.model-1{
+    font-size: 10%;
+}
+.model-1-heading{
+    position: absolute;
+    top:60%;
+    left: 4%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.electric-suv{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:67%;
+    left: 4%;
+}
+.electric-price{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:74%;
+    left: 4%;
+}
+.model-2-heading{
+    position: absolute;
+    top:60%;
+    left: 28%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.mid-hybrid-suv{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:67%;
+    left: 28%;
+}
+.mid-hybrid-price{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:74%;
+    left:28%;
+}
+.model-3-heading{
+    position: absolute;
+    top:60%;
+    left:54%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.electric-suv-2{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:67%;
+    left: 54%;
+}
+.electric-price-2{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:74%;
+    left: 54%;
+}
+.model-4-heading{
+    position: absolute;
+    top:60%;
+    left: 78%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.mid-hybrid-suv-2{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:67%;
+    left: 78%;
+}
+.mid-hybrid-price-2{
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    top:74%;
+    left:78%;
+}
+.compare-models{
+    font-weight: 699;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 95%;
+    left:45%;
+}
+.compare-models span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
