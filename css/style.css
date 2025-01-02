@@ -245,6 +245,7 @@ nav img{
 }
 .scroll div{
     margin: 5% 1% ;
+    background-color: rgb(249, 249, 249);
     flex: 1;
     height: 320px;
     width:22%;
@@ -370,4 +371,352 @@ nav img{
 .compare-models span:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.volvo-image{
+    height:1200px;
+    background-color:rgb(249, 249, 249);
+}
+.why-volvo{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top:225%;
+    left:45%;
+}
+.image-volvo{
+    position: absolute;
+    top:240%;
+    left:8%;
+    height:900px;
+    width:85%;
+}
+.image-volvo img{
+    height:80%;
+    width: 100%;
+}
+.volvo-text{
+    height:14%;
+    display: flex;
+}
+.volvo-text div{
+    margin-right:15px;
+    padding-top: 30px;
+    width:40%;
+}
+h4{
+    font-family:Helvetica, sans-serif;
+    font-size:20px;
+}
+.volvo-text p{
+    margin-top:16px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: lighter;
+}
+.learn-button{
+    height:5%;
+    width:20%;
+    margin-left:40%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 96, 157);
+    border: 2;
+    margin-top: 2px;
+    border-radius:5px;
+    cursor: pointer;
+    border:2px solid rgb(42, 96, 157);
+    transition: 0.18s;
+}
+.learn-button:hover{
+    cursor: pointer;
+    background-color: rgb(42, 96, 157);
+    color:white;
+    transition: 0.18s;
+}
+.learn-button p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 11px;
+    
+}
+.are-you-ready{
+    height:800px;
+}
+.are-you-ready .are-you-ready-heading{
+    margin-left:25%;
+    height: 20%;
+    width:50%;
+    text-align: center;
+}
+.are-you-ready div h3{
+    margin-top: 100px;
+    font-family:Helvetica, sans-serif;
+    font-size:30px;
+}
+.are-you-ready-text{
+    font-family:Helvetica, sans-serif;
+    font-size:20px;
+    color: gray;
+}
+.electric-cars{
+    position: absolute;
+    top: 415%;
+    left:23%;
+    height:70%;
+    width:27%;
+    background-color:rgb(249, 249, 249);
+}
+.electric-cars-2{
+    position: absolute;
+    top: 415%;
+    left:51%;
+    height:70%;
+    width:27%;
+    background-color:rgb(249, 249, 249);
+}
+.electric-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left:10px;
+}
+.electric-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin-top:25px;
+    margin-left: 10px;
+}
+.electric-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top:40px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: rgb(42, 96, 157);
+}
+.electric-button span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.electric-cars img{
+    margin-top:50px;
+    height:50%;
+    width: 100%;
+}.electric-cars-2 img{
+    margin-top:50px;
+    height:50%;
+    width: 100%;
+}
+.xc40{
+    height: 900px;
+}
+.xc40-image{
+    align-self: center;
+    justify-self: center;
+    height: 60%;
+    width: 84%;
+    background-color: aquamarine;
+}
+.xc40-image img{
+    height: 100%;
+    width: 100%;
+}
+.xc40-image h2{
+    position: absolute;
+    top: 530%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:32.5px;
+    left:15%;
+    color: white;
+}
+.xc40-image p{
+    box-sizing:border-box;
+    margin-top: 10px;
+    padding-top: 15px;
+    text-align: center;
+    width:200px;
+    height:50px;
+    left:15%;
+    top:542%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xc40-image p:hover{
+    cursor: pointer;
+    background-color:rgb(221, 217, 217);
+}
+.quick-link{
+    height:20%;
+}
+.quick-link h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.test-booking{
+    position: absolute;
+    left:25%;
+    height:20%;
+    width:50%;
+}
+.test-drive{
+    position: absolute;
+    top: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height:49%;
+    width: 49%;
+}
+.buy-online{
+    position: absolute;
+    left:51%;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height:49%;
+    width: 49%;
+}
+.retailers{
+    position: absolute;
+    top:50%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height:50%;
+    width: 49%;
+}
+.support{
+    position: absolute;
+    top:50%;
+    left:51%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    height:50%;
+    width: 49%;
+}
+.test-booking a{
+    text-decoration: none;
+    font-family: "Volvo Novum", "Segoe UI", "Helvetica Neue", Helvetica;
+    color:rgb(42 96 157);
+}
+.test-booking a:hover{
+    cursor: pointer;
+    color: black;
+}
+.test-booking div{
+    cursor: pointer;
+}
+.test-booking p{
+    margin-top: 8%;
+}
+.test-booking img{
+    position: absolute;
+    top:40%;
+    left:95%;
+    height:35%;
+    width:4%;
+}
+.last-text{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(56, 56, 56, 0.652);
+    font-weight: lighter;
+    font-size:12.1px;
+    margin:9%;
+}
+footer{
+    position: absolute;
+    top:645%;
+    background-color: rgb(244, 244, 244);
+    height:70%;
+    width:100%;
+    display: flex;
+}
+.wrapper{
+    top:10%;
+    position: absolute;
+    margin:0px 25px;
+    height:85%;
+    width:96.5%;
+}
+.back-button{
+    margin-left:49%;
+    height:12%;
+    font-family:"Volvo Novum", "Segoe UI", "Helvetica Neue", Helvetica;
+    font-weight: bold;
+}
+.back-div{
+    position: absolute;
+    left:37%;
+    margin:24px 0px 0px;
+    height:40%;
+    width:30%;
+    display:flex;
+    flex-direction: row;
+}
+.back-div div{
+    flex:1;
+    row-gap:10px;
+}
+.footer-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: rgb(160, 160, 160);
+}
+.footer-links{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-top:20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
+.india{
+    margin-top:4px;
+    height:40%;
+    display: flex;
+    cursor: pointer;
+}
+.india img{
+    margin-top:35px;
+    height: 40%;
+    margin-left:30px;
+}
+.india p{
+    margin-top:48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    
+}
+.india p:hover{
+    text-decoration: underline;
+}
+.contact-logo{
+    margin-top:230px;
+    height:20%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.facebook-logo{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    overflow: hidden;
+    margin:10px;
+    cursor: pointer;
+}
+.facebook-logo:hover{
+    cursor: pointer;
+}
+.facebook-logo img{
+    height:100%;
+    
 }
