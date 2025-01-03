@@ -168,6 +168,7 @@ nav img{
 }
 .message-icon img{
     position: absolute;
+    z-index:2;
     top: 35%;
     left: 30%;
     height: 40%;
@@ -633,7 +634,7 @@ footer{
     position: absolute;
     top:645%;
     background-color: rgb(244, 244, 244);
-    height:70%;
+    height:700px;
     width:100%;
     display: flex;
 }
@@ -649,6 +650,7 @@ footer{
     height:12%;
     font-family:"Volvo Novum", "Segoe UI", "Helvetica Neue", Helvetica;
     font-weight: bold;
+    border: none;
 }
 .back-div{
     position: absolute;
@@ -718,5 +720,44 @@ footer{
 }
 .facebook-logo img{
     height:100%;
-    
+}
+.last-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    position: absolute;
+    left:45%;
+}
+.last-link:hover{
+    text-decoration:underline;
+}
+.last-link-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    position: absolute;
+    left:50%;
+}
+.last-link-2:hover{
+    text-decoration:underline;
+}
+.last-link-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    position: absolute;
+    left:54%;
+}
+.last-link-3:hover{
+    text-decoration:underline;
+}
+.copy-right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin:30px;
+    color: rgb(129, 129, 129);
+    text-align: center;
 }
